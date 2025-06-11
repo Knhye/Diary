@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Archivo+Black&family=Bagel+Fat+One&family=Cinzel:wght@400..900&family=Gowun+Batang&family=Marcellus&family=Nanum+Gothic&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Orbit&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&family=Rubik+Bubbles&display=swap");
+
+html,
+body {
+  margin: 0px;
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  font-family: "Gowun Batang", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: white;
+  box-shadow: rgba(100, 100, 100, 0.2) 0px 7px 29px 0px;
+}
