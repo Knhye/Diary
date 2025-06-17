@@ -19,7 +19,7 @@ function reducer(state, action) {
       //   it.id === action.data.id ? { ...action.data } : it
       // )
       const newState = state.map((it) =>
-        it.id === action.data.id ? { ...action.data } : it
+        String(it.id) === String(action.data.id) ? { ...action.data } : it
       )
       localStorage.setItem("diary", JSON.stringify(newState))
       return newState
