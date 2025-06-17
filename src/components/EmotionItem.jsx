@@ -10,7 +10,7 @@ const EmotionItem = ({ id, img, name, onClick, isSelected }) => {
     <div
       className={[
         "EmotionItem",
-        isSelected ? `EmotionItem_on_${id}` : `EmotionTem_off`,
+        isSelected ? `EmotionItem_on_${id}` : `EmotionItem_off`,
       ].join(" ")}
       onClick={handleOnClick}
     >
